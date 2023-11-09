@@ -1,0 +1,38 @@
+.App {
+  width: 96%;
+  /* height: 100vh; */
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+table {
+  border: 2px ;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* width: 800px;
+  height: 200px; */
+  
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.zoomable-image {
+  cursor: zoom-in;
+  transition: transform 0.2s;
+}
+
+.zoomable-image.zoomed {
+  cursor: zoom-out;
+  transform: scale(2);
+}
+
+.zoomable-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
